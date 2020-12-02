@@ -1,0 +1,14 @@
+{
+  "name": "aoc2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/day1/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
+  },
+  "dependencies": {
+    "get-caller-file": "^2.0.5"
+  }
+}
