@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/day1/index.js"
+    "start": "node ./src/day2/index.js"
   },
   "devDependencies": {
     "@types/node": "^12.12.14"
