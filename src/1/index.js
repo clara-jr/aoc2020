@@ -1,31 +1,31 @@
 const readInput = require("../utils/readInput")
 
 const prepareInput = (rawInput) => rawInput.replace( /\n/g, ' ' ).split( ' ' )
-.map((input) => Number(input));
+.map((input) => Number(input))
 
 const input = prepareInput(readInput())
 // 1005459
 const goA = (input) => {
-  let result;
+  let result
   input.forEach((i) => {
     input.forEach((j) => {
-      if (i + j === 2020) result = i * j;
-    });
-  });
-  return result;
+      if (i + j === 2020) result = i * j
+    })
+  })
+  return result
 }
 
 // 92643264
 const goB = (input) => {
-  let result;
+  let result
   input.forEach((i) => {
     input.forEach((j) => {
       input.forEach((k) => {
-        if (i + j + k === 2020) result = i * j * k;
-      });
-    });
-  });
-  return result;
+        if (i + j + k === 2020) result = i * j * k
+      })
+    })
+  })
+  return result
 }
 
 /* Results */
