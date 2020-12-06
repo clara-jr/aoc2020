@@ -44,7 +44,7 @@ const rules = {
 
 // 256
 const goA = (input) => {
-  let result = 0;
+  let result = 0
   input.forEach(passport => {
     let valid = true
     passport = passport.split('\n').join(' ').split(' ')
@@ -53,13 +53,13 @@ const goA = (input) => {
       if (!fields.includes(requireField)) valid = false
     })
     if (valid) result++
-  });
-  return result;
+  })
+  return result
 }
 
 // 198
 const goB = (input) => {
-  let result = 0;
+  let result = 0
   input.forEach(passport => {
     let valid = true
     let strictValid = true
@@ -106,8 +106,8 @@ const goB = (input) => {
       })
       if (strictValid) result++
     }
-  });
-  return result;
+  })
+  return result
 }
 
 /* Results */
